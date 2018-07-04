@@ -16,7 +16,7 @@ A collection of modules for shared compute resources.
 References
 ----------
 
-[1]_ Cambridge High Performance Computing 
+1_ Cambridge High Performance Computing 
 
 Credits
 -------
@@ -26,4 +26,4 @@ Gifs by Maggle_
 .. References
 .. _Maggle: https://dribbble.com/maggle
 
-.. _[1]: https://www.hpc.cam.ac.uk/using-clusters/user-environment-and-modules#section-2
+.. _1: https://www.hpc.cam.ac.uk/using-clusters/user-environment-and-modules#section-2
