@@ -13,3 +13,8 @@ Capsule
 
 A collection of modules for shared compute resources.
 
+Credits
+-------
+Gifs by Maggle_
+
+.. _Maggle: https://dribbble.com/maggle

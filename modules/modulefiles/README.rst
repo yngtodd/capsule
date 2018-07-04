@@ -12,3 +12,14 @@ Module Files
 ------------
 
 Files to set the appropriate paths for each module.
+
+
+References
+----------
+
+
+Credits
+-------
+Gifs by Maggle_
+
+.. _Maggle: https://dribbble.com/maggle
