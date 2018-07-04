@@ -7,3 +7,9 @@
     </embed>
 
 ------------
+
+Capsule
+-------
+
+A collection of modules for shared compute resources.
+
