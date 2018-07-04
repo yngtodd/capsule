@@ -16,7 +16,7 @@ A collection of modules for shared compute resources.
 References
 ----------
 
-1_ Cambridge High Performance Computing 
+1._ Cambridge High Performance Computing 
 
 Credits
 -------
