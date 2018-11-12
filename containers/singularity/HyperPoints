@@ -29,7 +29,14 @@ From: anibali/pytorch:cuda-9.2
   cd vel
   /home/user/miniconda/envs/py36/bin/pip install '.[gym]'
   cd ~
-  /home/user/miniconda/envs/py36/bin/pip list
+
+%post
+
+  echo "Installing HyperPoints"
+  git clone https://github.com/yngtodd/hyperpoints.git
+  cd hyperpoints
+  /home/user/miniconda/envs/py36/bin/pip install .
+  cd ~
   
 %runscript
 
