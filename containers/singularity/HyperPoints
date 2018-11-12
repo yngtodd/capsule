@@ -14,16 +14,25 @@ From: anibali/pytorch:cuda-9.2
   apt install -y build-essential wget curl pkg-config libtool autoconf g++ zip zlib1g-dev unzip git
 
 %post
+  
+  echo "Installing HyperSpace." 
+  /home/user/miniconda/envs/py36/bin/pip install mpi4py
+  git clone https://github.com/yngtodd/hyperspace.git
+  cd hyperspace
+  /home/user/miniconda/envs/py36/bin/pip install . 
+  cd ~
 
-  echo "Setting up Anaconda"
-  wget http://repo.continuum.io/archive/Anaconda3-5.3.0-Linux-x86_64.sh
-  chmod +x Anaconda3-5.3.0-Linux-x86_64.sh
-  bash Anaconda3-5.3.0-Linux-x86_64.sh -b -p ~/anaconda
-  export PATH="~/anaconda/bin:$PATH"
-  conda create -n points python=3.6
+%post
 
+  echo "Installing Vel"
+  git clone https://github.com/yngtodd/vel.git
+  cd vel
+  /home/user/miniconda/envs/py36/bin/pip install '.[gym]'
+  cd ~
+  /home/user/miniconda/envs/py36/bin/pip list
+  
 %runscript
 
   echo "RaawWWWRRRR!"
-  source activate points
+  which python
   python
