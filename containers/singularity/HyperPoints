@@ -14,6 +14,14 @@ From: anibali/pytorch:cuda-9.2
   apt install -y build-essential wget curl pkg-config libtool autoconf g++ zip zlib1g-dev unzip git
 
 %post
+
+  echo "Installing Scikit-Optimize development"
+  git clone https://github.com/yngtodd/scikit-optimize.git 
+  cd scikit-optimize
+  /home/user/miniconda/envs/py36/bin/pip install .
+  cd ~
+
+%post
   
   echo "Installing HyperSpace." 
   /home/user/miniconda/envs/py36/bin/pip install mpi4py
