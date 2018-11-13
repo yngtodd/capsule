@@ -4,8 +4,8 @@ From: anibali/pytorch:cuda-9.2
 
 %help
 
-Singularity container for HyperPoints. Running Pytorch 0.4.1 and Cuda 9.2.
+  Singularity container for HyperPoints. Running Pytorch 0.4.1 and Cuda 9.2.
 
 %runscript
 
-    echo "RaawWWWRRRR!"
+  echo "RaawWWWRRRR!"
